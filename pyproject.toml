@@ -1,0 +1,19 @@
+[project]
+name = "git-10-1-5"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "alexandra andr",email = "shura_1986@mail.ru"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "git_10"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
